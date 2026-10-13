@@ -1,0 +1,1 @@
+var e=[`Desayunos`,`Bebidas`,`Botanas`];function c(r){return[...new Set(r)].sort((n,t)=>{let o=e.indexOf(n),a=e.indexOf(t),i=o===-1?Number.MAX_SAFE_INTEGER:o,u=a===-1?Number.MAX_SAFE_INTEGER:a;return i!==u?i-u:n.localeCompare(t,`es`)})}function A(r,s){let n=[...e];for(let t of r)n.push(t);return s&&n.push(s),c(n)}export{c as n,e as r,A as t};

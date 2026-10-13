@@ -1,0 +1,136 @@
+{
+  "configVersion": 1,
+  "timestamp": 1791921415164,
+  "index": "/desayunos-piloto/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/desayunos-piloto/chunk-0SCnp_1U.js",
+        "/desayunos-piloto/chunk-B4H3MRgd.js",
+        "/desayunos-piloto/chunk-BDv6W8D8.js",
+        "/desayunos-piloto/chunk-B_v4TTYx.js",
+        "/desayunos-piloto/chunk-BhhGhapV.js",
+        "/desayunos-piloto/chunk-BnqWu_JB.js",
+        "/desayunos-piloto/chunk-Bw8-kpCZ.js",
+        "/desayunos-piloto/chunk-CBCFNVHu.js",
+        "/desayunos-piloto/chunk-COYGUgs2.js",
+        "/desayunos-piloto/chunk-COgzCdIn.js",
+        "/desayunos-piloto/chunk-CPdJ8G50.js",
+        "/desayunos-piloto/chunk-CwrzOfHx.js",
+        "/desayunos-piloto/chunk-D1dM38oG.js",
+        "/desayunos-piloto/chunk-DMecIsi5.js",
+        "/desayunos-piloto/chunk-De7v4Ku4.js",
+        "/desayunos-piloto/chunk-DikjW-Qm.js",
+        "/desayunos-piloto/chunk-Dk1tn6uy.js",
+        "/desayunos-piloto/chunk-DlVKGVM8.js",
+        "/desayunos-piloto/chunk-DnnD0Blk.js",
+        "/desayunos-piloto/chunk-Du7fIx9g.js",
+        "/desayunos-piloto/chunk-IU58dbQE.js",
+        "/desayunos-piloto/chunk-Th5jIuak.js",
+        "/desayunos-piloto/chunk-hfZe64Ks.js",
+        "/desayunos-piloto/chunk-l6GBKbzi.js",
+        "/desayunos-piloto/favicon.ico",
+        "/desayunos-piloto/index.html",
+        "/desayunos-piloto/main-56DZYK6F.js",
+        "/desayunos-piloto/manifest.webmanifest",
+        "/desayunos-piloto/styles-NL7F66JK.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "supabase-api",
+      "patterns": [
+        "https:\\/\\/owvadnjwsdnzqiglxafm\\.supabase\\.co\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    },
+    {
+      "name": "map-tiles",
+      "patterns": [
+        "https:\\/\\/[^/]*\\.tile\\.openstreetmap\\.org\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 200,
+      "maxAge": 2592000000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/desayunos-piloto/chunk-0SCnp_1U.js": "5596cd6c0ccb05e0407d2bdeff1c9a2a920599de",
+    "/desayunos-piloto/chunk-B4H3MRgd.js": "2dfe67d36d06dcd289a8419f692a1d838e65fbe6",
+    "/desayunos-piloto/chunk-BDv6W8D8.js": "67be8590e437fb29220be1486c6bf22d6bdb0f63",
+    "/desayunos-piloto/chunk-B_v4TTYx.js": "a1a2b11b6aefec5eb1c841319c9a6caa130f9869",
+    "/desayunos-piloto/chunk-BhhGhapV.js": "4e0957eb85a74317d0657f0cb7ffc5b30ef3ec2a",
+    "/desayunos-piloto/chunk-BnqWu_JB.js": "b0196317c158998c98b96b7cf5cfc7db4d5d9be0",
+    "/desayunos-piloto/chunk-Bw8-kpCZ.js": "1c3feec188d2075c8a02f63e72e8a5395ccc1d03",
+    "/desayunos-piloto/chunk-CBCFNVHu.js": "6773adf4ef1a2ebf2f08859c2f38ebb6f70c36fd",
+    "/desayunos-piloto/chunk-COYGUgs2.js": "abd1d1bd88c1e585358b63601b331561b811a4af",
+    "/desayunos-piloto/chunk-COgzCdIn.js": "522318ccaa7eb340ab8001761699dbaa97825150",
+    "/desayunos-piloto/chunk-CPdJ8G50.js": "3505f0a69bfa017cfa2d0e66bc92a5076070bcde",
+    "/desayunos-piloto/chunk-CwrzOfHx.js": "3abd632fcac6300c032edac8090e3419acb9df35",
+    "/desayunos-piloto/chunk-D1dM38oG.js": "419d03954e33c30ee36bd3d15cf0e930efcac918",
+    "/desayunos-piloto/chunk-DMecIsi5.js": "e61beb0bbb79a6bdf996fcf1d561a6dd3ed74357",
+    "/desayunos-piloto/chunk-De7v4Ku4.js": "59b735e946641d18bed1e79ca3ee38e235559942",
+    "/desayunos-piloto/chunk-DikjW-Qm.js": "6a47539347452414d42ac2ed284adfe8312870f4",
+    "/desayunos-piloto/chunk-Dk1tn6uy.js": "6657a9b0d10961e6c0b70f778ed852dd0cea6aca",
+    "/desayunos-piloto/chunk-DlVKGVM8.js": "65eab2bd604d66074083383a78d0e88cc8f71c74",
+    "/desayunos-piloto/chunk-DnnD0Blk.js": "57f7024a94b73aac19bb334ae74f0bdc72683f91",
+    "/desayunos-piloto/chunk-Du7fIx9g.js": "7208b71db616da10baa97e680eb7d072c2ab98df",
+    "/desayunos-piloto/chunk-IU58dbQE.js": "def7128e7f081b5e45acccb1c6f0646a039fdd6b",
+    "/desayunos-piloto/chunk-Th5jIuak.js": "fbce01c418d0179a722caab25e065409ccb4d03c",
+    "/desayunos-piloto/chunk-hfZe64Ks.js": "4828f90d17244fb67ad974805d7b1ad071a4937a",
+    "/desayunos-piloto/chunk-l6GBKbzi.js": "3e16e92cb291cc5ce4b52f0071fc0260bb7935fb",
+    "/desayunos-piloto/favicon.ico": "acf8b3826edffe4cfd175683dcd4d7f1ea3eadad",
+    "/desayunos-piloto/index.html": "6d576c877c48b3e75d31c7afd5c765f8639c9a26",
+    "/desayunos-piloto/main-56DZYK6F.js": "68e7343f9b7806f3be79b71806ecc2df481491a6",
+    "/desayunos-piloto/manifest.webmanifest": "1fc09d1fe2b21329cbdf948666a65ef0ea9a89a7",
+    "/desayunos-piloto/styles-NL7F66JK.css": "89def6d1a7c175443b3833cb7fd2fff7c97e1716"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
