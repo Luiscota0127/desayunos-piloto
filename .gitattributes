@@ -1,0 +1,4 @@
+# ngsw.json guarda el hash SHA-1 de cada archivo byte a byte. Si git convierte
+# los finales de linea, el service worker nunca casa el hash y re-descarga el
+# shell sin fin. Sin conversion: se sirve exactamente el byte del disco.
+* -text
